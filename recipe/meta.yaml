@@ -20,6 +20,7 @@ requirements:
   host:
     - python
     - pip
+    - libgfortran
 
   run:
     - python
@@ -27,6 +28,7 @@ requirements:
     - numpy
     - scipy
     - matplotlib-base
+    - libgfortran-ng
 
 test:
   imports:
