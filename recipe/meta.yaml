@@ -1,5 +1,5 @@
 {% set name = "glmnet_py" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/johnlees/glmnet_python/archive/v{{ version }}.tar.gz
-  sha256: c6bd4f60daa70ad2d2297ae804a2e2e5ab22021af6c14b3a288f94965c613196
+  sha256: 50a43a91ff10def588ad619d652fa8763f31c5656dd6079c2409809bf4f2058f
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win or py2k]
 
 requirements:
@@ -24,6 +24,7 @@ requirements:
   run:
     - python
     - joblib >=0.10.3
+    - numpy
     - scipy
     - matplotlib-base
 
