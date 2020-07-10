@@ -3,7 +3,7 @@ About glmnet_py
 
 Home: https://github.com/bbalasub1/glmnet_python
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: BSD-3-Clause
 
