@@ -46,7 +46,7 @@ test:
 
 about:
   home: https://github.com/bbalasub1/glmnet_python
-  license: GPL-2
+  license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE.txt
   summary: 'python version of the popular glmnet library'
