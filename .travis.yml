@@ -7,11 +7,6 @@ language: generic
 
 matrix:
   include:
-    - env: CONFIG=osx_64_python3.6.____73_pypy UPLOAD_PACKAGES=True PLATFORM=osx-64
-      os: osx
-      osx_image: xcode12u
-      arch: amd64
-
     - env: CONFIG=osx_64_python3.6.____cpython UPLOAD_PACKAGES=True PLATFORM=osx-64
       os: osx
       osx_image: xcode12u
